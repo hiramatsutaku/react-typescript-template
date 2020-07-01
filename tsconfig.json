@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // Project Options
+    "target": "es5",
+    "module": "ESNext",
+    "sourceMap": true,
+    "noEmit": true,
+    "jsx": "react",
+    // Strict Checks
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    // Module Resolution
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    // Linter Checks
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    // Advanced
+    "skipLibCheck": true
+  }
+}
