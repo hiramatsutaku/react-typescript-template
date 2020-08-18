@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "14.4.0"
+    "node": "14.8.0"
   },
   "scripts": {
     "start": "TS_NODE_PROJECT=tsconfig.webpack.json webpack-dev-server",
@@ -14,29 +14,29 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@types/node": "14.0.14",
+    "@types/node": "14.6.0",
     "@types/react": "16.9.41",
     "@types/react-dom": "16.9.8",
     "@types/webpack": "4.41.18",
     "@types/webpack-dev-server": "3.11.0",
-    "@typescript-eslint/eslint-plugin": "3.5.0",
-    "@typescript-eslint/parser": "3.5.0",
+    "@typescript-eslint/eslint-plugin": "3.9.1",
+    "@typescript-eslint/parser": "3.9.1",
     "clean-webpack-plugin": "3.0.0",
-    "eslint": "7.3.1",
+    "eslint": "7.7.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-react": "7.20.3",
-    "eslint-plugin-react-hooks": "4.0.5",
+    "eslint-plugin-react-hooks": "4.1.0",
     "html-webpack-plugin": "4.3.0",
     "npm-run-all": "4.1.5",
     "prettier": "2.0.5",
     "ts-loader": "7.0.5",
     "ts-node": "8.10.2",
     "typescript": "3.9.5",
-    "webpack": "4.43.0",
+    "webpack": "4.44.1",
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "3.11.0"
   },
