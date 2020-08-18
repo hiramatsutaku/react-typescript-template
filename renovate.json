@@ -6,19 +6,14 @@
   "rebaseWhen": "conflicted",
   "packageRules": [
     {
-      "updateTypes": ["minor"],
-      "groupName": "all minor packages",
-      "prPriority": 1
+      "groupName": "monorepo:typescript-eslint",
+      "sourceUrlPrefixes": ["https://github.com/typescript-eslint/typescript-eslint"],
+      "prPriority": 3
     },
     {
       "updateTypes": ["patch"],
       "groupName": "all patch packages",
       "prPriority": 2
-    },
-    {
-      "groupName": "monorepo:typescript-eslint",
-      "sourceUrlPrefixes": ["https://github.com/typescript-eslint/typescript-eslint"],
-      "prPriority": 3
     }
   ],
   "ignoreDeps": [],
