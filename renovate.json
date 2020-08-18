@@ -16,8 +16,8 @@
       "prPriority": 2
     },
     {
-      "groupName": "monorepo:storybook",
-      "sourceUrlPrefixes": ["https://github.com/storybookjs/storybook"],
+      "groupName": "monorepo:typescript-eslint",
+      "sourceUrlPrefixes": ["https://github.com/typescript-eslint/typescript-eslint"],
       "prPriority": 3
     }
   ],
