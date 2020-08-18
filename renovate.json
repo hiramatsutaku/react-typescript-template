@@ -1,0 +1,26 @@
+{
+  "extends": ["config:base"],
+  "rangeStrategy": "pin",
+  "separateMinorPatch": true,
+  "labels": ["Type: Dependencies"],
+  "rebaseWhen": "conflicted",
+  "packageRules": [
+    {
+      "updateTypes": ["minor"],
+      "groupName": "all minor packages",
+      "prPriority": 1
+    },
+    {
+      "updateTypes": ["patch"],
+      "groupName": "all patch packages",
+      "prPriority": 2
+    },
+    {
+      "groupName": "monorepo:storybook",
+      "sourceUrlPrefixes": ["https://github.com/storybookjs/storybook"],
+      "prPriority": 3
+    }
+  ],
+  "ignoreDeps": [],
+  "ignorePaths": []
+}
