@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "14.8.0"
+    "node": "14.17.0"
   },
   "scripts": {
     "start": "TS_NODE_PROJECT=tsconfig.webpack.json webpack-dev-server",
@@ -14,7 +14,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@types/node": "14.6.0",
+    "@types/node": "14.17.3",
     "@types/react": "16.9.46",
     "@types/react-dom": "16.9.8",
     "@types/webpack": "4.41.21",
